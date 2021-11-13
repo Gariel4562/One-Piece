@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="estilo/style03.css">
+</head>
+<body>
+    <header>
+        <h1 id="h1principal">One Piece</h1>
+
+    <p><p>Esse é o meu site sobre o anime/mangá One piece, aqui venderemos produtos sobre o anime, disponibilizaremos downloads dos episódios, Curiosidades, sobre o anime e muito mais!</p></p>
+
+
+    </header>
+
+    <nav>
+
+       
+        <a href="index.html">Home</a>
+         <a href="pag02.html">Produtos</a>
+         <a href="pag03.html">Contato</a>
+
+
+    </nav>
+
+    <main>
+
+        <div id="contato" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+
+
+            <p>Para contato click aqui </p>
+
+
+        </div>
+
+        <script>
+            var a = window.document.getElementById('contato')
+            
+            
+            function clicar () {
+                a.innerText = '99 98987-99999'
+                a.style.background = 'red'
+            }
+
+            function entrar () {
+                a.innerText = 'Clique aqui para pegar o nosso numero'
+            }
+            
+            function sair() {
+                a.innerHTML = 'Obrigado!'
+                a.style.background = 'rgb(53, 165, 230)'
+            }
+
+
+
+
+        </script>
+
+
+
+
+
+
+    
+    
+    
+    
+    </main>
+
+    <footer>
+
+        <p>Desenvolvido por Bielzão</p>
+
+
+
+
+
+    </footer>
+
+
+    
+
+
+
+    
+</body>
+</html>
